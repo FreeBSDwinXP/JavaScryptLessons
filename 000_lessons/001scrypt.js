@@ -57,6 +57,19 @@ console.log("2" === 2);*/
 //console.log(one && two);//logical AND
 //console.log(one || two);//logical OR
 
-let oneday = 100;
-alert("Ваш бюджет на один день составляет " + oneday + 'гривен');
-console.log (oneday);
+let num = 25;
+
+switch (num) {
+    case num < 10:
+        console.log('small');
+        break;
+    case num > 30:
+        console.log('big');
+        break;
+    case 25:
+        console.log('Yes');
+        break;
+    default:
+        console.log('HZ');
+        break; 
+}
